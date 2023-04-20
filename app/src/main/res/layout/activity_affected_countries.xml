@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededf2"
+    tools:context=".AffectedCountries">
+
+    <EditText
+        android:id="@+id/searchCountry"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="20dp"
+        android:hint="Search"
+        android:drawablePadding="15dp"
+        android:background="@drawable/edittext_shadow"
+        android:drawableStart="@drawable/ic_baseline_search_24"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/searchCountry"
+        android:layout_margin="10dp">
+    </ListView>
+
+</RelativeLayout>

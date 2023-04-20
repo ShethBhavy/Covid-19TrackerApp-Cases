@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Covid-19 Tracker App</string>
+
+    <string-array name="spinner_items">
+        <item><b>Theme</b></item>
+        <item>Follow System</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Auto</item>
+    </string-array>
+</resources>
